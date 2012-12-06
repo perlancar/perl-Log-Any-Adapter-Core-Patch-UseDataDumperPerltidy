@@ -17,6 +17,7 @@ our %config;
 my $_dump_one_line = sub {
     my ($value) = @_;
 
+    local $Data::Dumper::Terse = 1;
     return Dumper($value);
 };
 
