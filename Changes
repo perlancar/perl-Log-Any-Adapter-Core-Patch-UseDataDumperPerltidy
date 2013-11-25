@@ -1,5 +1,10 @@
 Revision history for Log-Any-Adapter-Core-Patch-UseDataDumperPerltidy
 
+0.03    2013-11-25 (SHARYANTO)
+
+        - No functional changes. Fix repository metadata [RT#90760].
+
+
 0.02    2012-12-06 (SHARYANTO)
 
         - Set $Data::Dumper::Terse = 1.
